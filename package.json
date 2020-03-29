@@ -5,10 +5,15 @@
   "main": "postcss.config.js",
   "dependencies": {
     "autoprefixer": "^9.7.5",
+    "express": "^4.17.1",
+    "johnny-five": "^1.4.0",
     "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  },
   "scripts": {
     "build": "postcss static/css/tailwind.css -o public/build/tailwind.css"
   },
