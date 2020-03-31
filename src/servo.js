@@ -1,6 +1,8 @@
 const {Board, Servo} = require("johnny-five");
 const board = new Board();
 
+export default board;
+
 board.on("ready", () => {
 
   /* Servo constructor with options */

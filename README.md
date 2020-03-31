@@ -15,8 +15,10 @@
 git clone https://github.com/jorgecontrerasostos/servointerface.git
 cd servointerface
 npm install
-##idk, wait
+node app.js
 ```
+
+- Then, go to http://localhost:8081
 
 ## Dependencies
 
@@ -30,11 +32,3 @@ As stated in the [Getting Started wiki](https://github.com/rwaldron/johnny-five/
 > - Install arduino libraries via `arduino --install-library "Firmata,Servo"` in the Terminal.
 > - Flash the arduino board via `arduino --board "arduino:avr:uno" --upload ./path/to/firmware/firmware.ino`. Remember to change your board according to what you use. See below on how to figure out that identifier.
 > - If the upload was successful, the board is now prepared for johnny-five usage.
-
-- About node, these are the modules.
-
-```bash
-npm install johnny-five --save 
-npm install express --save 
-```
-
